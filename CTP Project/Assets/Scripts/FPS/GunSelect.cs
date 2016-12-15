@@ -58,4 +58,9 @@ public class GunSelect : MonoBehaviour {
         currentGun = shotgun;
         currentGunID = 1;
     }
+
+    public GameObject GetCurrrentGun()
+    {
+        return currentGun;
+    }
 }
